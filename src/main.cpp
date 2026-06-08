@@ -1,6 +1,6 @@
-#include <iostream>
+#include "uci/uci.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    UCI::loop();
     return 0;
 }
